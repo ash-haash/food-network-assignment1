@@ -1,0 +1,165 @@
+body{
+    font-family: 'Otomanopee One', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 90px;
+}
+nav .logo{
+    padding: 22px 0px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+}
+nav ul{
+    list-style: none;
+    float:right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: orange;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+h2{
+    color: gray;
+}
+p{
+    color: gray;
+}
+section{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.top-section{
+    display: flex;
+    margin: 100px 0px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width h1{
+    color: gray;
+    font-size: 60px;
+    padding-top: 100px;
+}
+.half-width p{
+    margin-bottom: 50px;
+    color: darkgray;
+}
+.half-width img{
+    width: 90%;
+}
+.orange-color{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(230, 85, 28), orange);
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.button:hover{
+    background-image: linear-gradient(orange, rgb(230, 85, 28));
+}
+.about-section {
+    display: flex;
+    background-image: url(images/7.png);
+    height: 600px;
+}
+#person-img{
+    padding-top: 100px;
+    height: 500px;
+    width: 340px;
+    padding-left: 150px;
+}
+.half-width h2{
+    padding-top: 170px;
+    padding-bottom: 20px;
+}
+.half-width p{
+    padding-bottom: 50px;
+}
+.recipies-area{
+    display: flex;
+    margin: 0px 50px;
+}
+.recipies-texts{
+    padding: 50px 0px;
+}
+.recipies-texts h2{
+    text-align: center;
+}
+.recipies-texts p{
+    text-align-last: center;
+}
+.recipies-items{
+    margin: 0px 20px;
+    padding: 10px 10px;
+    width: 33%;
+    border: 10px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+}
+.recipies-items p{
+    padding: 0p;
+}
+.recipies-items img{
+    width: 100%;
+}
+
+.followers-section{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+}
+.followers-item{
+    width: 33%;
+}
+.followers-item h2{
+    text-align: center;
+}
+.followers-item p{
+    text-align: center;
+}
+
+footer{
+    height: 200px;
+    background-color: rgb(13, 13, 39);
+}
+
+footer h2{
+    text-align: center;
+    color: darkgray;
+    padding-top: 30px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
